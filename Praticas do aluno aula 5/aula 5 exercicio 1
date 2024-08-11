@@ -1,34 +1,15 @@
-.quadrado{
-    border: 3px solid black;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    background-color: coral;
-    position: absolute;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-}
-
-.quadrado1{
-    left: 0px;
-    top: 0px;
-    background-color: darkslategray;
-}
-
-.quadrado2{
-    right: 0px;
-    top: 0px;
-    background-color: crimson;
-}
-
-.quadrado3{
-    right: 0px;
-    bottom: 0px;
-    background-color: darkgreen;
-}
-
-.quadrado4{
-    left: 0px;
-    bottom: 0px;
-    background-color: darkorchid;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="quadrado quadrado quadrado1">Quadrado1</div>
+    <div class="quadrado quadrado quadrado2">Quadrado2</div>
+    <div class="quadrado quadrado quadrado3">Quadrado3</div>
+    <div class="quadrado quadrado quadrado4">Quadrado4</div>
+</body>
+</html>
